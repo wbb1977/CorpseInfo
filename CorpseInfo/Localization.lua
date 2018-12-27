@@ -1,6 +1,6 @@
 ﻿
 CORPSEINFO_NAME = "CorpseInfo";
-CORPSEINFO_VERSION = "testversion14";
+CORPSEINFO_VERSION = "v15";
 CORPSEINFO_CHATMESSAGE = NORMAL_FONT_COLOR_CODE .. CORPSEINFO_NAME .. ": " .. LIGHTYELLOW_FONT_COLOR_CODE .. "%s";
 
 BINDING_HEADER_CORPSEINFO = CORPSEINFO_NAME;
@@ -16,7 +16,7 @@ if GetLocale() == "deDE" then
   CORPSEINFO_LOADED = " geladen";
 
   CORPSEINFO_MYADDONS_DESCRIPTION = "Zeigt zus\195\164tzlich Klasse, Stufe, Onlinestatus bei einem Kadaver an.";
-  CORPSEINFO_MYADDONS_RELEASEDATE = "10. Juni 2007";
+  CORPSEINFO_MYADDONS_RELEASEDATE = "27. Dezember 2018";
 
   CORPSEINFO_ONLINE = GREEN_FONT_COLOR_CODE .. "Online";
 
@@ -62,7 +62,7 @@ elseif GetLocale() == "frFR" then
   CORPSEINFO_LOADED = " charg\195\169.";
 
   CORPSEINFO_MYADDONS_DESCRIPTION = "Ajoute dans la bulle d'information la classe, le niveau, le statut de connexion pour les cadavres.";
-  CORPSEINFO_MYADDONS_RELEASEDATE = "10 juin 2007";
+  CORPSEINFO_MYADDONS_RELEASEDATE = "December 27, 2018";
 
   CORPSEINFO_ONLINE = GREEN_FONT_COLOR_CODE .. "Connect\195\169";
 
@@ -108,7 +108,7 @@ elseif GetLocale() == "zhCN" then
   CORPSEINFO_LOADED = "已加载。";
 
   CORPSEINFO_MYADDONS_DESCRIPTION = "在tooltip中显示有关尸体的职业、等级、在线状态等信息。";
-  CORPSEINFO_MYADDONS_RELEASEDATE = "2007年6月10日";
+  CORPSEINFO_MYADDONS_RELEASEDATE = "December 27, 2018";
 
   CORPSEINFO_ONLINE = GREEN_FONT_COLOR_CODE .. "在线";
 
@@ -154,7 +154,7 @@ else
   CORPSEINFO_LOADED = " loaded.";
 
   CORPSEINFO_MYADDONS_DESCRIPTION = "Adds class, level, online status to the tooltip for a corpse.";
-  CORPSEINFO_MYADDONS_RELEASEDATE = "June 10, 2007";
+  CORPSEINFO_MYADDONS_RELEASEDATE = "December 27, 2018";
 
   CORPSEINFO_ONLINE = GREEN_FONT_COLOR_CODE .. "Online";
 

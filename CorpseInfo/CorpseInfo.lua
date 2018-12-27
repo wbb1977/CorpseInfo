@@ -1,12 +1,19 @@
 --
--- CorpseInfo testversion14
+-- CorpseInfo v15
 --
 -- by Bastian Pflieger <wbb1977@gmail.com>
 --
 -- Thanks to Frosty for his help in improving this thing!
 --
--- Last update: August 23, 2006
+-- Created: August 23, 2006
 --
+-- supports "myAddOns" up to v2.6: https://wow.curseforge.com/projects/my-add-ons
+-- supports "CT Player Notes" up to 1.31: http://www.vanilla-addons.com/dls/ct-playernotes/
+-- supports "Holo Friend" up to 0.11: https://wow.curseforge.com/projects/project-1024?gameCategorySlug=addons&projectID=1024
+-- supports "SK Map" up to 1.6: https://wow.curseforge.com/projects/project-687
+
+-- December 27, 2018:
+-- clean up for private server WoW Vanialla 1.12
 
 local name;
 local tipChecked = false;
@@ -243,9 +250,9 @@ function CorpseInfo_RegisterMyAddons()
       description = CORPSEINFO_MYADDONS_DESCRIPTION,
       version = CORPSEINFO_VERSION,
       releaseDate = CORPSEINFO_MYADDONS_RELEASEDATE,
-      author = "wbb",
-      email = "<wb@illogical.de>",
-      website = "http://www.illogical.de",
+      author = "Bastian Pflieger (wbb)",
+      email = "<wbb1977@gmail.com>",
+      website = nil,
       category = MYADDONS_CATEGORY_OTHERS,
       frame = "CorpseInfoFrame"
     }, {
