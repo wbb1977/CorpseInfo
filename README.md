@@ -9,12 +9,10 @@ This addon sends automatically /who <name of dead player> if you hover mouse poi
 * /corpseinfo mode - Toggle between automatic inspection on/off (Default: automode is on). If off, you have to left click the corpse to inspect it.
 * /corpseinfo chat - Toggle whether to suppress the ouput of /who commands initiated by this addon (Default: suppress output) 
 
-# KoS Support
-Integrated support for Opium KoS Addon (currently disabled for KoS 2.7b) and SKMap. These two stores data about enemy player (race, level, class).
+# SKMap, HoloFriends and ct_PlayerNotes Support
+SKMap (up to v1.6) stores data about enemy player (race, level, class). CorpseInfo utilize this information if available. It will add your note/comment about the player to the tooltip and for enemy player it adds race, level and class.
 
-CorpseInfo utilize this information if available. It will add your note/comment about the player to the tooltip and for enemy player it adds race, level and class.
-
-Notes from HoloFriends and ct_PlayerNotes are also shown if available.
+Notes from HoloFriends (up to v0.11) and ct_PlayerNotes (up to v1.31) are also shown if available.
 
 # If you use TipBuddy
 
