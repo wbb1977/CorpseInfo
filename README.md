@@ -5,9 +5,9 @@ Vanialla World of Warcraft Tooltip Addon
 This addon sends automatically /who <name of dead player> if you hover mouse pointer over a corpse. Alternative you can bind a key or do a mouse click to inspect the corpse. It adds then the information from the response to the tooltip. If the player is still online it adds race, class, level and the word 'Online' to the tooltip otherwise it adds Offline or <name of opposite faction>.
 
 # Commands
-* /corpseinfo - Display current setup and a help message.
-* /corpseinfo mode - Toggle between automatic inspection on/off (Default: automode is on). If off, you have to left click the corpse to inspect it.
-* /corpseinfo chat - Toggle whether to suppress the ouput of /who commands initiated by this addon (Default: suppress output) 
+* <code>/corpseinfo</code> - Display current setup and a help message.
+* <code>/corpseinfo mode</code> - Toggle between automatic inspection on/off (Default: automode is on). If off, you have to left click the corpse to inspect it.
+* <code>/corpseinfo chat</code> - Toggle whether to suppress the ouput of /who commands initiated by this addon (Default: suppress output) 
 
 # SKMap, HoloFriends and ct_PlayerNotes Support
 SKMap (up to v1.6) stores data about enemy player (race, level, class). CorpseInfo utilize this information if available. It will add your note/comment about the player to the tooltip and for enemy player it adds race, level and class.
